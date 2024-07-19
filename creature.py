@@ -21,5 +21,6 @@ class Creature:
         self.modify_entity(entity)
 
     def modify_entity(self, entity):
-        # By default nothing happens here; overriden by subclasses
+        # By default nothing happens here; method overriden by subclasses 
+        # for child-specific modifications
         pass 
