@@ -7,9 +7,7 @@ def main() -> None:
     screen_width = 80
     screen_height = 50
 
-    tileset = tcod.tileset.load_tilesheet(
-        "font.png", 32, 8, tcod.tileset.CHARMAP_TCOD
-    )
+    tileset = tcod.tileset.load_bdf("assets/cozette.bdf")
 
     with tcod.context.new_terminal(
         screen_width,
